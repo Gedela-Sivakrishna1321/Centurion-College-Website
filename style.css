@@ -1,0 +1,442 @@
+
+.navbar {
+    height: 160px;
+    width: 100%;
+    background-color: #f4f4f4;
+    border-top: 5px solid #A41034;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.logo{
+   height: 140px;
+   width: 90px;
+   background-image: url("Centurion_University_of_Technology_and_Management_Logo.webp");
+   background-size: cover;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+/** Tab **/
+.nav-main-menu {
+    height: 140px;
+    width: 1000px;
+    display: flex;
+    font-size: 22px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 25px;
+    
+}
+
+.tab {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+}
+
+/* .tab:hover {
+    background-color: #fafafa; 
+} */
+
+.nav-main-menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: #A41034;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid brown;
+    border-radius: 20%;
+    position: relative;
+}
+
+
+
+ a:hover {
+    /* border: 2px solid darkorange; */
+    background-color: rgba(255, 228, 196, 0.785);
+}
+
+/** Hero Section **/
+.hero-section {
+    height: 400px;
+    background-image: url("Centurion_img.jpg");
+    background-size: cover;
+}
+
+/** Details **/
+.details {
+    height: 300px;
+    width: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+}
+
+.learn {
+    height: 250px;
+    width: 300px; 
+    background-color: #A41034;
+    margin-right: 5px;
+    margin-bottom:20px ;
+    border-radius: 15px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.87);
+    padding-left: 15px;
+    position: relative;
+    top: -55px;
+}
+
+.experience {
+    height: 250px;
+    width: 300px;
+    background-color: #ffb2c6;
+    margin-right: 5px;
+    margin-bottom:20px ;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 15px;
+    position: relative;
+    top: -55px;
+}
+
+.change {
+    height: 250px;
+    width: 310px;
+    background-color: #A41034;
+    margin-right: 5px;
+    margin-bottom:20px ;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 15px;
+    color: rgba(255, 255, 255, 0.87);
+    position: relative;
+    top: -55px;
+}
+
+/** About US **/
+.about {
+    height: 40px;
+    width: 100%;
+    background-color: #A41034;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.about-us {
+    height: 40px;
+    width: 790px;
+    color: white;
+    font-size: 1.35rem;
+    margin-right: 70px;
+    padding-top: 8px;
+}
+
+/** About Content **/
+.about-content {
+    height: 1650;
+    width: 100%;
+    padding: 0px 15px;
+    display: block;
+  
+}
+
+.clg-data {
+    height: 550px;
+    width: 100%;
+    font-size: 1.25rem;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+/* .para {
+    padding-left: 20px;
+    padding-right: 40px;
+    font-size: 1.15rem;
+    height: 180px;
+    width: 95%;
+    display: block;
+    font-weight: 400;
+    margin-top: 10px;
+} */
+
+/** Footer1 **/
+.foot1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: #1d1d24;
+    color: white;
+}
+
+.foot1 ul {
+    list-style: none;
+}
+
+.foot2 {
+    height: 56px;
+    width: 100%;
+    background-color: #A41034;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.foot2 p {
+    font-size: 1.2rem;
+}
+
+
+/** Gallery Web Page **/ 
+.heading {
+    height: 50px;
+    width: 100%;
+    background-color: #A41034;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pictures {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img {
+    padding: 10px;
+}
+
+.img:hover {
+    border:2px solid orange;
+}
+
+/** Admissions Web Page **/
+.admission-hdg {
+    height: 60px;
+    width: 100%;
+    background-color: #00000070;
+    position: relative;
+    top: -20px;
+}
+
+.admission-hdg h1 {
+    font-family: Arial;
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.admission-form {
+    height: 500px;
+    width: 80%;
+    background-color: rgba(255, 228, 196, 0.865);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 25px;
+    border-radius: 2.5%;
+}
+
+.stu-details {
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    font-family: Arial;
+}
+
+.gender {
+    width: 300px;
+}
+
+.buttons {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 1.15rem;
+    border-radius: 15%;
+    color: white;
+}
+
+#submit {
+    background-color: grey;
+    position: relative;
+    left: 150px;
+}
+
+#reset {
+    background-color: grey;
+    position: relative;
+    left: 550px;
+}
+
+#submit:hover {
+    background-color: blue;
+}
+
+#reset:hover {
+    background-color: rgba(20, 198, 20, 0.825);
+}
+
+/** Academics Page **/
+.courses {
+    height: 1500px;
+    width: 100%;
+    background-color: #fffcf2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.department {
+    height: 275px;
+    width: 75%;
+    background-color:#bbdefb;
+    margin: 20px;
+    border-radius: 2.5%;
+}
+
+#heading1 {
+    height: 65px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+}
+
+.branch {
+    text-decoration: none;
+    color: black;
+}
+
+.dep2 {
+    height: 240px;
+}
+
+.dep3 {
+    height: 160px;
+}
+
+.dep4 {
+    height: 160px;
+}
+
+.dep5 {
+    height: 160px;
+}
+
+/** Computer science webpage **/
+
+
+#course-content {
+    height: auto;
+    width: 100%;
+}
+
+#course-content  {
+    font-family: sans-serif;
+    font-size: 1.25rem;
+}
+
+.opp {
+    display: flex;
+}
+
+.cyber-security-course {
+    position: relative;
+    top: -70px;
+}
+
+.cloud-technology-course {
+    position: relative;
+    top: -150px;
+}
+
+.metaverse-technology-course {
+    position: relative;
+    top: -230px;
+}
+
+.saas-course {
+    position: relative;
+    top: -300px;
+}
+
+.fee {
+    position: relative;
+    top: -350px;
+}
+
+/** Civil Webpage **/
+.civil-hero-section 
+
+.domains {
+    height: auto;
+    width: 100%;
+}
+
+.sdcm-course {
+    position: relative;
+    top: -100px;
+}
+
+.civil-fee {
+    position: relative;
+    top: -250px;
+} 
+
+/** Electical & Electronics webpage **/
+
+.industrial-automation-course {
+    position: relative;
+    top: -140px;
+}
+
+.eee-fee {
+    position: relative;
+    top: -250px;
+}
+
+/** ECE webpage **/
+.ece-hero-section {
+    height: 420px;
+    width: 100%;
+    background-image: url("Images/img22.png");
+    background-size: contain;
+}
+
+#fee {
+    position: relative;
+    top: -50px;
+}
+
+/** Mechanical Webpage **/
+#hero-section {
+    height: 420px;
+    width: 100%;
+}
